@@ -7,8 +7,14 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  imgArray : any = []
   constructor(public navCtrl: NavController) {
+   //this.imgArray
+  }
 
+  showDetail(contact){
+    //alert(contact.name);
+    //this.navCtrl.push("ContactPage");
   }
 
 }

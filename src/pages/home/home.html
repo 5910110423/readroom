@@ -1,17 +1,95 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Read Toon</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class = "bg">
+    
+    <ion-grid>
+        <ion-row>
+            <h4 class ="text">Toon Reccommend</h4>
+          <ion-col col-12>
+              
+              <ion-slides pager autoplay="5000" loop="true" speed="2000">
+
+                  <ion-slide>
+                    <img src="../../assets/imgs/slide/s1.jpg"/>
+                  </ion-slide>
+                
+                  <ion-slide>
+                      <img src="../../assets/imgs/slide/s2.jpg"/>
+                  </ion-slide>
+                
+                    <ion-slide>
+                        <img src="../../assets/imgs/slide/s3.jpg"/>
+                    </ion-slide>
+                
+                </ion-slides>
+         
+          </ion-col>
+          <h4 class ="text">Toon Popular</h4>
+        </ion-row>
+        <ion-row>
+              <ion-col col-4>
+                  <ion-card>
+                      <img src="../../assets/imgs/nick.jpg"/>
+                      <ion-card-content alight="center">
+                        <p>kikaphu</p>
+                      </ion-card-content>
+                    </ion-card>
+    
+              </ion-col>
+              
+              <ion-col col-4>
+                  <ion-card>
+                      <img src="../../assets/imgs/nick.jpg"/>
+                      <ion-card-content alight="center">
+                        <p>kikaphu</p>
+                      </ion-card-content>
+                    </ion-card>
+
+              </ion-col>
+              <ion-col col-4>
+                  <ion-card>
+                      <img src="../../assets/imgs/nick.jpg"/>
+                      <ion-card-content alight="center">
+                        <p>kikaphu</p>
+                      </ion-card-content>
+                    </ion-card>
+
+              </ion-col>
+        </ion-row>
+        <h4 class ="text">My Toon</h4>
+        <ion-row>
+            <ion-col col-4>
+                <ion-card>
+                    <img src="../../assets/imgs/nick.jpg"/>
+                    <ion-card-content alight="center">
+                      <p>kikaphu</p>
+                    </ion-card-content>
+                  </ion-card>
+  
+            </ion-col>
+            
+            <ion-col col-4>
+                <ion-card>
+                    <img src="../../assets/imgs/nick.jpg"/>
+                    <ion-card-content alight="center">
+                      <p>kikaphu</p>
+                    </ion-card-content>
+                  </ion-card>
+
+            </ion-col>
+            <ion-col col-4>
+                <ion-card>
+                    <img src="../../assets/imgs/nick.jpg"/>
+                    <ion-card-content alight="center">
+                      <p>kikaphu</p>
+                    </ion-card-content>
+                  </ion-card>
+
+            </ion-col>
+      </ion-row>
+      </ion-grid>
 </ion-content>
